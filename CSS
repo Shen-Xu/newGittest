@@ -1,0 +1,61 @@
+header, body .container, nav {
+  text-align: center;
+  font-family: "Chakra Petch", sans-serif;
+  display: block;
+}
+
+body {
+  background: url("background.jpg");
+  text-align: center;
+  font-family: "Chakra Petch", sans-serif;
+}
+body .container .col-sm-4 {
+  background: #CFD1D1;
+  border: #e1efec;
+}
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+}
+.column .column img {
+  margin-top: 0px;
+  vertical-align: middle;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Chakra Petch", sans-serif;
+  display: block;
+}
+
+.row {
+  flex-wrap: wrap;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Chakra Petch", sans-serif;
+  display: block;
+}
+
+.nav {
+  background-color: rgba(153, 153, 153, 0.3);
+  height: 50px;
+  border-bottom: 2px solid gray;
+}
+.nav span {
+  font-size: 24px;
+  line-height: 200px;
+}
+
+.form {
+  background-color: rgba(192, 192, 192, 0.3);
+  position: absolute;
+  border: 1px solid black;
+  left: 25%;
+  width: 55.2083333333%;
+  height: relative;
+  text-align: center;
+  padding: 30px;
+}
